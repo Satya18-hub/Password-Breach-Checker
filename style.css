@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    width: 90%;
+    max-width: 450px;
+
+    padding: 35px;
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+}
+
+h1 {
+    color: #243b55;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #555;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.input-box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 75%;
+    padding: 13px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px 0 0 6px;
+
+    outline: none;
+}
+
+#toggleBtn {
+    width: 25%;
+    border: none;
+
+    background: #ddd;
+    cursor: pointer;
+
+    border-radius: 0 6px 6px 0;
+}
+
+#checkBtn {
+    width: 100%;
+    padding: 13px;
+
+    background: #243b55;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#checkBtn:hover {
+    background: #141e30;
+}
+
+#result {
+    margin-top: 25px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.safe {
+    color: green;
+}
+
+.danger {
+    color: red;
+}
+
+.error {
+    color: #d97706;
+}
+
+.note {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
